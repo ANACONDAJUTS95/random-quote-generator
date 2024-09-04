@@ -59,3 +59,49 @@ body {
   #tweet-quote:hover {
     background-color: #0d8fe6;
   }
+
+  /* Responsive Design */
+@media screen and (max-width: 768px) {
+  #quote-box {
+      padding: 1.5rem;
+      max-width: 90%;
+  }
+  
+  #text {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+  }
+  
+  #author {
+      font-size: 0.9rem;
+      margin: 1.5rem 0 1.2rem 0;
+  }
+  
+  #new-quote, #tweet-quote {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #quote-box {
+      padding: 1rem;
+  }
+  
+  #text {
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  #author {
+      font-size: 0.8rem;
+      margin: 1rem 0 1rem 0;
+  }
+  
+  #new-quote, #tweet-quote {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.85rem;
+      margin-right: 0.4rem;
+  }
+}
